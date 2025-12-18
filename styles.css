@@ -1,16 +1,23 @@
+html {
+    background-color: aquamarine;
+    font-size: 11px; text-align: center;
+}
 .container {
     box-sizing: border-box;
     border: 2px solid red;
     background-color: white;
     border-radius: 12px;
     max-width: 320px;
+    padding: 20px;
 }
 
 .qr-container {
+    border-radius: 12px;
     border: 2px solid blue;
 }
 
 img {
+    border-radius: 12px;
     width: 100%;
 }
 
