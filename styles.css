@@ -4,13 +4,13 @@ body {
     background-color: aquamarine;
     font-size: 12px; 
     font-family: 'Outfit', sans-serif;
-   
-   /* justify-content: center;*/
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
 }
 .container {
   
     flex-direction: column;
-    flex: 2;
     /*border: 2px solid red;*/
     background-color: white;
     border-radius: 12px;
@@ -27,7 +27,7 @@ img {
 }
 
 .text {
-    flex: 1;
+    
     text-align: center;
 } 
 h1 {
