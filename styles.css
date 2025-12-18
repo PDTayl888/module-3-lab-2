@@ -1,31 +1,39 @@
 
 body {
-     background-color: aquamarine;
-    font-size: 11px; 
-    text-align: center;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    background-color: aquamarine;
+    font-size: 12px; 
+    font-family: 'Outfit', sans-serif;
+   
+   /* justify-content: center;*/
 }
 .container {
-    align-self: center;
+  
+    flex-direction: column;
+    flex: 2;
     /*border: 2px solid red;*/
     background-color: white;
     border-radius: 12px;
-    max-width: 320px;
-    padding: 20px;
+    max-width: 300px;
+    padding: 10px 10px 20px 10px;
 }
-
 .qr-container {
     border-radius: 12px;
     /*border: 2px solid blue;*/
 }
-
 img {
     border-radius: 12px;
     width: 100%;
 }
 
 .text {
-   /* border: 2px solid green;*/
+    flex: 1;
+    text-align: center;
+} 
+h1 {
+    padding: 2px;
+}
+p {
+    padding: 2px;
+    align-self: center;
 }
