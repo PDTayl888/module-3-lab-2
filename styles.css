@@ -1,10 +1,15 @@
-html {
-    background-color: aquamarine;
-    font-size: 11px; text-align: center;
+
+body {
+     background-color: aquamarine;
+    font-size: 11px; 
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
 .container {
-    box-sizing: border-box;
-    border: 2px solid red;
+    align-self: center;
+    /*border: 2px solid red;*/
     background-color: white;
     border-radius: 12px;
     max-width: 320px;
@@ -13,7 +18,7 @@ html {
 
 .qr-container {
     border-radius: 12px;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 
 img {
@@ -22,5 +27,5 @@ img {
 }
 
 .text {
-    border: 2px solid green;
+   /* border: 2px solid green;*/
 }
